@@ -1,0 +1,26 @@
+Customer-Shopping-Behavior-Analysis/
+├── README.md
+├── data/
+│   └── customer_shopping_data.csv       # Raw dataset (3,900 records)
+├── notebooks/
+│   ├── 01_Data_Exploration.ipynb        # EDA with Pandas
+│   └── 02_Data_Cleaning.ipynb           # Data prep & feature engineering
+├── sql_queries/
+│   ├── 01_Revenue_Analysis.sql
+│   ├── 02_Customer_Segmentation.sql
+│   ├── 03_Product_Analysis.sql
+│   └── 04_Subscription_Analysis.sql
+├── dashboards/
+│   ├── Customer_Shopping_Dashboard.pbix # Power BI file
+│   └── dashboard_screenshots/
+│       ├── overview.png
+│       ├── customer_segmentation.png
+│       ├── spending_patterns.png
+│       └── product_analysis.png
+├── reports/
+│   ├── Project_Summary.md
+│   ├── Executive_Summary.md
+│   └── Methodology.md
+├── docs/
+│   └── Feature_Engineering_Details.md
+└── .gitignore
